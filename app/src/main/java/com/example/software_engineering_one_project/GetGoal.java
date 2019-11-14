@@ -38,7 +38,7 @@ public class GetGoal extends AppCompatActivity {
                         Intent moveToGainweight = new Intent(GetGoal.this, GainWeight.class);
                         startActivity(moveToGainweight);
                     } else if (realGoal == "Maintain Weight") {
-                        Intent moveToMaintain = new Intent(GetGoal.this, Maintain.class);
+                        Intent moveToMaintain = new Intent(GetGoal.this, ActivityLevel.class);
                         startActivity(moveToMaintain);
                     } else {
                         Toast.makeText(GetGoal.this, "Select a goal before continuing", Toast.LENGTH_SHORT).show();
