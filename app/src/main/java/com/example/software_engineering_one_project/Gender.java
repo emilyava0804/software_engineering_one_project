@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,8 +25,8 @@ public class Gender extends AppCompatActivity {
         final EditText weight = (EditText) findViewById(R.id.weight);
         final Button nextButton = (Button) findViewById(R.id.button_next);
 
-        int selectedButton = radioGender.getCheckedRadioButtonId();
-        gender = (RadioButton) findViewById(selectedButton);
+        int selectedGender = radioGender.getCheckedRadioButtonId();
+        gender = (RadioButton) findViewById(selectedGender);
 
 		/* Add DB table code to save: gender, height (feet,inches), weight
 		long val = db.addUser(username,useremail,password);
