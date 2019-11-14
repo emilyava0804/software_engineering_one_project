@@ -63,5 +63,6 @@
     <string name="textview_placeholder2">If you do this, you will reach your goal by February 23, 2020.</string>
     <string name="button_start_tracking">Start tracking!</string>
     <string name="button_recalculate">Recalculate</string>
+    <string name="weightGainRate">How fast would you like to gain the weight?</string>
 
 </resources>

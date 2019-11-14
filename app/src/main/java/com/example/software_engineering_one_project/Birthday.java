@@ -1,4 +1,4 @@
-package com.example.software_engineering_one_project.;
+package com.example.software_engineering_one_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -23,13 +23,11 @@ public class Birthday extends AppCompatActivity {
         int year = datePicker.getYear();
         final Button nextButton = (Button) findViewById(R.id.button_next);
 
-        // Insert code to save to DB //
-
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // FILL IN NEXT LINE //
-                if () {
+                if (data > 0) {
+                    // Insert code to save to DB //
                     Intent moveToGetgoal = new Intent(Birthday.this, GetGoal.class);
                     startActivity(moveToGetgoal);
                 }

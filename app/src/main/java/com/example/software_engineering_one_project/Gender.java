@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -17,13 +18,17 @@ public class Gender extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gender);
 
-        final RadioGroup radioGender;
+        final RadioGroup radioGender = (RadioGroup) findViewById(R.id.radioGender)
+        final RadioButton gender;
         final EditText heightFeet = (EditText) findViewById(R.id.height_feet);
         final EditText heightInches = (EditText) findViewById(R.id.height_inches);
         final EditText weight = (EditText) findViewById(R.id.weight);
         final Button nextButton = (Button) findViewById(R.id.button_next);
 
-		/* Add DB table code to save
+        int selectedGender = radioGender.getCheckedRadioButtonId();
+        gender = (RadioButton) findViewById(selectedGender);
+
+		/* Add DB table code to save: gender, height (feet,inches), weight
 		long val = db.addUser(username,useremail,password);
 		 */
 
