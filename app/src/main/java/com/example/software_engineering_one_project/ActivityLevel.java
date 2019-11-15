@@ -29,9 +29,9 @@ public class ActivityLevel extends AppCompatActivity {
        calculate.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               if (data > 0) {
+               if (true/*data > 0same as below*/) {
                    //insert code to save to DB: activity level
-                   if (datasuccesfullySavedToDB) {
+                   if (true/*datasuccesfullySavedToDB* commented this cause we dont have this method implemented yet*/) {
                        Intent moveToActivityLevel = new Intent(ActivityLevel.this, GoalsCalculated.class);
                        startActivity(moveToActivityLevel);
                    } else {
@@ -41,5 +41,6 @@ public class ActivityLevel extends AppCompatActivity {
                    Toast.makeText(ActivityLevel.this, "Choose an activity level", Toast.LENGTH_SHORT).show();
                }
            }
-       }
+       });
+}
 }
