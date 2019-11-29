@@ -26,9 +26,10 @@ public class ActivityLevel extends AppCompatActivity {
 
        final String activitylevel = activityLevel.getText().toString().trim();
 
-       calculate.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
+
+      // calculate.setOnClickListener(new View.OnClickListener() {
+        //   @Override
+         /*  public void onClick(View v) {
                if (data > 0) {
                    //insert code to save to DB: activity level
                    if (datasuccesfullySavedToDB) {
@@ -40,6 +41,6 @@ public class ActivityLevel extends AppCompatActivity {
                } else {
                    Toast.makeText(ActivityLevel.this, "Choose an activity level", Toast.LENGTH_SHORT).show();
                }
-           }
+           }*/
        }
 }

@@ -36,18 +36,11 @@
     <!-- activity_birthday -->
     <string name="select_birthday">Select your birthday.</string>
 
-    <!-- Fragment prompt goals -->
+    <!-- activity_getgoal -->
     <string name="textview_goals_prompt">Next, we want to learn how to help you. What is your goal?</string>
     <string name="radiobutton_lose_weight">Lose Weight</string>
     <string name="radiobutton_maintain_weight">Maintain Weight</string>
     <string name="radiobutton_gain_weight">Gain Weight</string>
-
-    <!-- Fragment Calculate Goals -->
-    <string name="textview_enter_goal_weight">Enter your goal weight.</string>
-    <string name="textview_goal_time">How fast would you like to lose the weight?</string>
-    <string name="radiobutton_2week">2 lbs. per week</string>
-    <string name="radiobutton_1week">1 lbs. per week (recommended)</string>
-    <string name="radiobutton_half_week">0.5 lbs. per week</string>
 
     <!-- Fragment Activity Level -->
     <string name="textview_activity_level">Last step! Choose your activity level!</string>
@@ -63,6 +56,23 @@
     <string name="textview_placeholder2">If you do this, you will reach your goal by February 23, 2020.</string>
     <string name="button_start_tracking">Start tracking!</string>
     <string name="button_recalculate">Recalculate</string>
-    <string name="weightGainRate">How fast would you like to gain the weight?</string>
+
+    <!-- Activity_home -->
+    <string name="calories_remaining">Calories Remaining:</string>
+    <string name="calorie_breakdown">Goal - Consumed = Remaining</string>
+    <string name="Dummy_text">2000 - 534 = 1466</string>
+    <string name="button_home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="default_food">Enter food to be displayed here.</string>
+    <string name="add">+</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="profile_name">Name:</string>
+    <string name="profile_email">Email:</string>
+    <string name="goodnews">Good news!</string>
+    <string name="calculated">Your calculated calories are:</string>
 
 </resources>

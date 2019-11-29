@@ -6,7 +6,7 @@
     android:layout_gravity="center_horizontal"
     android:background="@color/background_color"
     android:orientation="vertical"
-    tools:context="Gender">
+    tools:context=".getGender">
 
     <!-- Logo -->
     <ImageView
@@ -25,7 +25,7 @@
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <!-- Choose Gender -->
+    <!-- Choose getGender -->
     <RadioGroup
         android:id="@+id/radioGender"
         android:layout_width="wrap_content"
